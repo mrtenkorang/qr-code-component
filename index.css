@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+    --WhiteColor: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+}
+@media screen and (min-width:1440px){
+    .main-card{
+        width: 18%;
+        height: available;
+        background-color: var(--WhiteColor);
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(0, -50%);
+        border-radius: 1em;
+        align-items: center;
+    }
+}
+
+html, body {
+    background-color: var(--LightGray);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+img{
+    width: 17.2em;
+    margin: 1em;
+    border-radius: 1em;
+}
+.improve{
+    font-size: 1.3em;
+    font-weight: 700;
+    color: var(--DarkBlue);
+    
+}
+
+.scan-code{
+    color: var(--GrayishBlue);
+}
+#text {
+    text-align: center;
+    padding: 0 20px; /* Adjust the padding value to control the spacing on the left and right */
+}
+
